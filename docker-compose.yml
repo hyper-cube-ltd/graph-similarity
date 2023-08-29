@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: run # to specity the multi-stage build target
